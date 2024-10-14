@@ -38,6 +38,8 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: master
       - name: Pull latest
         run: |
           git config --global user.name 'Lynniu5016'
