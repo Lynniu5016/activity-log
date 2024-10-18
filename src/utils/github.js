@@ -73,7 +73,7 @@ async function fetchAllEvents() {
 
             // Check for API rate limit or pagination issues
             if (events.length === 0) {
-                core.warning('⚠️test: No more events available.');
+                core.warning('⚠️test2: No more events available.');
                 break; // No more events to fetch
             }
 
